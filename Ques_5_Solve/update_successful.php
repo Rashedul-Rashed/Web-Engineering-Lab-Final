@@ -21,7 +21,7 @@
     <h1>
        <?php 
         if(mysqli_query($conn, $sql)){
-            echo "You successfully update your info.";
+            echo "Your info successfully updated.";
         }
         else{
             echo "Something wrong in your data.";
