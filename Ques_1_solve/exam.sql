@@ -40,7 +40,7 @@ CREATE TABLE `ques_1_user` (
 --
 
 INSERT INTO `ques_1_user` (`Names`, `id`, `age`, `username`, `passwordd`) VALUES
-('Naim Istiak', '181-15-1793', 22, 'naimistiak', '0147');
+('Rashedul Islam', '181-15-1879', 24, 'rashed', '123');
 
 -- --------------------------------------------------------
 
@@ -60,8 +60,8 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`Id`, `Names`, `Age`, `Section`) VALUES
-('123', 'test22', 24, 'T'),
-('151', 'NaimIstiak', 22, 'pc-b');
+('153', 'test4', 24, 'T'),
+('181', 'Rashedul Islam', 24, 'pc-b');
 
 -- --------------------------------------------------------
 
@@ -80,7 +80,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`username`, `password`) VALUES
 ('1', '1'),
-('RakibHasan', 'rakib');
+('Rashedul Islam', 'rashed');
 
 --
 -- Indexes for dumped tables
